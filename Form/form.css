@@ -1,0 +1,15 @@
+body {
+    background-color: darkslategray;
+}
+hr {
+    border-block-color: lightslategrey;
+}
+table {
+    background-color:lightslategrey;
+}
+.heading {
+    color: rgb(164, 187, 212);
+}
+.paragraph {
+    color: rgb(164, 187, 212);
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #1b1b1b;
+}
+ul,ol,p {
+    color: moccasin;
+}
+h1,h2,h3 {
+    color: #c1996b;
+}
+hr {
+    border-block-color: #c1996b;
+}
+.top {
+    background-color: #c1996b;
+}
+.homeicon {
+    background-color: #c1996b;
+}
+strong {
+    color: #c1996b;
+}
+.EXCLUSIVE {
+    color: moccasin;
+}
+a {
+    color: moccasin;
+}
+b {
+    color: #c1996b;
+}

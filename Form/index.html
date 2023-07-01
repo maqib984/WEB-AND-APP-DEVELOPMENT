@@ -5,38 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APPLICATION FORM</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 
-<body style="background-color: goldenrod;">
+<body>
     <center>
-        <h1>Employment Application</h1>
-        <hr style="border-block-color: darkgoldenrod;" />
-        <p>Fill the form below accurately indicating your suitability to job applying for.</p>
+        <h1 class="heading">Employment Application</h1>
+        <hr />
+        <p class="paragraph">Fill the form below accurately indicating your suitability to job applying for.</p>
         <form action="">
-            <table cellpadding="10" cellspacing="10" style="background-color: darkgoldenrod;">
+            <table cellpadding="10" cellspacing="10" >
                 <tr>
                     <td>
                         <p><label>Full Name:<br />
-                                <input size="25" type="text" placeholder="as per CNIC" required
-                                    style="background-color: goldenrod;"></label>
+                                <input size="25" type="text" placeholder="as per CNIC" required></label>
                         </p>
                     </td>
                     <td>
                         <p><label>Father Name:<br />
-                                <input size="25" type="text" placeholder="as per CNIC"
-                                    style="background-color: goldenrod;"></label></p>
+                                <input size="25" type="text" placeholder="as per CNIC"></label></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p>DOB:<br />
-                            <input type="date" style="background-color: goldenrod;">
+                            <input type="date">
                         </p>
                     </td>
                     <td>
                         <P>CNIC or B-Form:<br />
-                            <input placeholder="_____-_______-_" size="25" type="text"
-                                style="background-color: goldenrod;">
+                            <input placeholder="_____-_______-_" size="25" type="text">
                         </P>
                     </td>
                 <tr>
@@ -56,7 +54,7 @@
                 <tr>
                     <td>
                         <p>Phone Number:<br />
-                            <select style="background-color: goldenrod;">
+                            <select>
                                 <option value="93">+93</option>
                                 <option value="358">+358</option>
                                 <option value="355">+355</option>
@@ -239,33 +237,30 @@
                                 <option value="Zambia">+260</option>
                                 <option value="zimbabve">+263</option>
                             </select>
-                            <input size="16" maxlength="11" type="tel" style="background-color: goldenrod;">
+                            <input size="16" maxlength="11" type="tel">
                         </p>
                     </td>
                     <td>
                         <p>Email Address:<br />
-                            <input placeholder="example@example.com" size="25" type="email"
-                                style="background-color: goldenrod;">
+                            <input placeholder="example@example.com" size="25" type="email">
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p>Address 1:<br />
-                            <textarea placeholder="Parmanent address" cols="26" rows="2"
-                                style="background-color: goldenrod;"></textarea>
+                            <textarea placeholder="Parmanent address" cols="26" rows="2"></textarea>
                         </p>
                     </td>
                     <td>
                         <p>Address 2:<br />
-                            <textarea placeholder="Current address" cols="26" rows="2"
-                                style="background-color: goldenrod;"></textarea>
+                            <textarea placeholder="Current address" cols="26" rows="2"></textarea>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <select name="" id="" style="background-color: goldenrod;">
+                        <select name="" id="" >
                             <option value="" disabled selected>Select City</option>
                             <option value="Ahmed Nager Chatha">Ahmed Nager Chatha</option>
                             <option value="Ahmadpur East">Ahmadpur East</option>
@@ -506,7 +501,7 @@
                         </select>
                     </td>
                     <td>
-                        <select name="" id="" style="background-color: goldenrod;">
+                        <select name="" id="">
                             <option>select country</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AX">Aland Islands</option>
@@ -764,7 +759,7 @@
                     </td>
                 <tr>
                     <td>
-                        <select name="" id="" style="background-color: goldenrod;">
+                        <select name="" id="">
                             <option value="" disabled selected>District</option>
                             <option value="Central">Central District</option>
                             <option value="East">East District</option>
@@ -776,8 +771,7 @@
                         </select>
                     </td>
                     <td>
-                        <input size="19" placeholder="Postal / Zip Code" type="text"
-                            style="background-color: goldenrod;">
+                        <input size="19" placeholder="Postal / Zip Code" type="text">
                     </td>
                 <tr>
                     <td>
@@ -798,20 +792,19 @@
                             <p><input type="checkbox" value="referred">Linkedin</p>
                         </label>
                         <label>
-                            <p><input type="checkbox" value="otherreferred">Other: <input size="18" type="text"
-                                    style="background-color: goldenrod;"> </p>
+                            <p><input type="checkbox" value="otherreferred">Other: <input size="18" type="text"> </p>
                         </label>
                     </td>
                 <tr>
                     <td>
                         <p>Upload Resume:</p>
-                        <input type="file" name="userCv" style="background-color: goldenrod;">
+                        <input type="file" name="userCv" >
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p>Highest Qualification:</p>
-                        <select style="background-color: goldenrod;" name="Highestqualification" id="">
+                        <select name="Highestqualification" id="">
                             <option value="">Please Select</option>
                             <option value="middle">Under middle (Under grade 8)</option>
                             <option value="matric">Matric / O Levels</option>
@@ -834,14 +827,14 @@
                 <tr>
                     <td>
                         <p>How will this job help you in a future?<br />
-                            <textarea style="background-color: goldenrod;" placeholder="Your answer" name="" id=""
+                            <textarea  placeholder="Your answer" name="" id=""
                                 cols="30" rows="2"></textarea>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button style="background-color: goldenrod;">SUBMIT FORM</button>
+                        <button >SUBMIT FORM</button>
                     </td>
                 </tr>
             </table>
