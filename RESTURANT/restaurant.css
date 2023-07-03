@@ -1,7 +1,7 @@
 body {
     background-color: #1b1b1b;
 }
-ul,ol,p {
+ul,ol,p,div {
     color: moccasin;
 }
 h1,h2,h3 {
@@ -24,7 +24,23 @@ strong {
 }
 a {
     color: moccasin;
+    text-decoration: none;
 }
 b {
     color: #c1996b;
 }
+
+@font-face {
+    font-family: KING;
+    src: url(FONT/IMFellDoublePicaSC-Regular.ttf);
+}
+
+.head {
+    letter-spacing: 20px;
+    font-size:270%;
+    font-family: KING;
+}
+
+
+
+
