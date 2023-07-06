@@ -40,6 +40,17 @@ b {
     font-size:270%;
     font-family: KING;
 }
+.in {
+    display: inline-flex;
+    width: 97%;
+}
+.facebook {
+    fill:#385898
+}
+.insta {
+    fill: goldenrod;
+}
+
 
 
 
