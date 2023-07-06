@@ -40,7 +40,7 @@ b {
     font-size:270%;
     font-family: KING;
 }
-.in {
+.inline {
     display: inline-flex;
     width: 97%;
 }
@@ -48,7 +48,7 @@ b {
     fill:#385898
 }
 .insta {
-    fill: rgba(241, 204, 35, 0.849);
+    fill: #c1996b;
 }
 .linkdin {
     fill: #0a66c2;
