@@ -11,7 +11,7 @@ hr {
     border-block-color: #c1996b;
 }
 .top {
-    background-color: #c1996b;
+    fill: #c1996b;
 }
 .homeicon {
     background-color: #c1996b;
@@ -48,9 +48,17 @@ b {
     fill:#385898
 }
 .insta {
-    fill: goldenrod;
+    fill: rgba(241, 204, 35, 0.849);
 }
-
+.linkdin {
+    fill: #0a66c2;
+}
+.twitter{
+    fill: #1d9bf0;
+}
+.github{
+    fill: black;
+}
 
 
 
