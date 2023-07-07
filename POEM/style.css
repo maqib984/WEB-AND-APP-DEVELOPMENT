@@ -1,6 +1,6 @@
 .back {
     background-image: url(images/background.png);
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: center;
 }
@@ -60,6 +60,5 @@ h1{
 .date {
     text-align: right;
     width: 300px;
-    font-family:'Times New Roman', Times, serif
 }
 
