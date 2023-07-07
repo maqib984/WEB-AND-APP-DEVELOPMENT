@@ -1,0 +1,65 @@
+.back {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 170px;
+    line-height: 0px;
+}
+.author {
+    text-align:center;
+}
+.paragraph1::first-letter {
+    font-size: 40px;
+}
+.paragraph1::first-line{
+    letter-spacing: 1px;
+    word-spacing: 0;
+    text-transform: uppercase;
+}
+.paragraph1 {
+    text-align:left;
+    width: 470px;
+    word-spacing: 5px;
+}
+.para2::first-letter {
+    font-size: 24px;
+}
+.para2::first-line{
+    letter-spacing: 0;
+    word-spacing: 0;
+    text-transform: uppercase;
+}
+.para2 {
+    text-align: left;
+    width: 470px;
+    font-size: 15.2px;
+    word-spacing: 5px;
+}
+.para3::first-letter {
+    font-size: 24px;
+}
+.para3::first-line{
+    letter-spacing: 1px;
+    word-spacing: 0;
+    text-transform: uppercase;}
+.para3 {
+    text-align: justify;
+    width: 470px;
+    word-spacing: 5px;
+}
+.empty {
+    text-align: justify;
+    width: 470px;
+    visibility: hidden;
+}
+.date {
+    text-align: right;
+    width: 300px;
+    font-family:'Times New Roman', Times, serif
+}
+
