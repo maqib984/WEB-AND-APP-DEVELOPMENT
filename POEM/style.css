@@ -1,8 +1,9 @@
 .back {
     background-image: url(images/background.png);
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: center;
+    background-position:center;
 }
 h1{
     text-align: center;
@@ -11,7 +12,7 @@ h1{
     line-height: 0px;
 }
 .author {
-    text-align:center;
+    text-align: center;
 }
 .paragraph1::first-letter {
     font-size: 40px;
