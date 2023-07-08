@@ -7,3 +7,10 @@ hr {
 h1 {
     color: black;
 }
+.inline {
+    padding: 50px ;
+    width: 100%;
+}
+a {
+    text-decoration:none;
+}
