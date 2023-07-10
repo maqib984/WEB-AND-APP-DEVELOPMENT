@@ -17,20 +17,23 @@ body {
    padding-left: 40px;
    cursor:pointer;
    list-style: none;
-   font-family: sans-serif; 
+   font-family: Arial, Helvetica, sans-serif;
 }
 .user {
     height: 27px;
     padding-top: 24px;
     padding-left: 40px;
+    cursor: pointer;
 }
 .cart {
     height: 27px;
     padding-top: 24px;
     padding-left: 0px;
+    cursor: pointer;
 }
 .cart0 {
-    border: 1 solid red;
+    border: 1 solid;
+    border-color: red;
     width: 20px;
     height: 20px;
     border-radius: 100px;
@@ -38,18 +41,21 @@ body {
     position: relative;
     left: 42px;
     top: 13px;
+    cursor: pointer;
 }
 .order {
-    border: 1 solid red;
+    border: 1 solid;
+    border-color: red;
     width: 160px;
-    height: 60px;
+    height: 55px;
     font-size: 15px;
     padding-right: 39px;
     color: white;
     background-color: red;
     border-radius: 200px;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 7px;
+    cursor: pointer;
 }
 .leftarrow {
     height: 28px;
@@ -57,6 +63,35 @@ body {
     position: relative;
     right: 45px;
     top: 20px;
+    cursor: pointer;
+}
+#bannerbutton {
+    border: 1 solid;
+    border-color: red;
+    width: 130px;
+    height: 45px;
+    font-size: 12px;
+    padding-right: 39px;
+    color: white;
+    background-color: red;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 60px;
+    top: -249px;
+    left: -392px;
+    position: relative;
+    cursor: pointer;
+}
+#bannericon {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    right: 435px;
+    top: -240px;
+    cursor: pointer;
+}
+h1 {
+    margin-top: -100px;
 }
 .center {
     color: white;
@@ -66,23 +101,372 @@ body {
 }
 .img1,.img2,.img3,.img4,.img5 {
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: -10px;
     width: 210px;
     height: 330px;
+    cursor: pointer;
     /* display: inline-flex; */
 }
 .pictures {
     display: inline-flex;
-    list-style: none
+    list-style: none;
 }
 h4 {
     margin-top: 0px;
+    cursor: pointer;
 }
 .info {
-    background-color:#1b1b1b;
-    text-align: left;
-    margin-top: 50px;
+    background-color:#0e0f0f;
+    display: inline-flex;
+   
 }
-p {
-text-align: right;
+.infopic {
+    text-align: left;
+    height: 503px;
+   
+}
+.infopara {
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 30px;
+}
+@font-face {
+    font-family: salt;
+    src: url(font/BarlowCondensed-Thin.ttf);
+}
+.redheading {
+    color: red;
+    font-family:salt;
+    letter-spacing: 9px;
+    font-size: 17px;
+}
+.paragraph {
+    color:#a8a6a6;
+}
+.heading {
+    margin-top: 0px;
+    font-size: 42px;
+    color: white;
+}
+.learn {
+    border: 1 solid;
+    background-color: #0e0f0f;
+    color: white;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 22px;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 100px;
+    width: 160px;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.learnicon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+    cursor: pointer;
+}
+h5 {
+    color: #ffffff;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+.dealul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ourdeals {
+    color: #ffffff;
+    display: inline-flex;
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 100px;
+    padding-right: 110px;
+    text-align: center;
+}
+.dealheading {
+    font-size: 24px;
+    font-family: salt;
+    font-weight: bold;
+    margin-top: 0px;
+    margin: 0px auto;
+    /* text-align: center; */
+}
+.dealparagraph {
+    font-family: salt;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.dealprice {
+    font-family: salt;
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dealbutton {
+    border: 1 solid;
+    background-color: red;
+    border-color: red;
+    color: #ffffff;
+    border-radius: 200px;
+    border-width: 0;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.deal1pic{
+    padding-right: 40px;
+    
+}
+.deal3pic {
+  padding-left: 40px;
+}
+.weekmenu {
+    background-color:#0e0f0f;
+    display: inline-flex;
+   
+}
+.deatilpic {
+    text-align: left;
+    height: 600px;
+   
+}
+.weekmenupara {
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 30px;
+}
+@font-face {
+    font-family: salt;
+    src: url(font/BarlowCondensed-Thin.ttf);
+}
+.weekredheading {
+    color: red;
+    font-family:salt;
+    letter-spacing: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.weekparagraph {
+    color:#a8a6a6;
+    text-align:justify;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weekheading {
+    margin-top: 0px;
+    font-size: 42px;
+    line-height: 55px;
+    color: white;
+}
+.pakistanivip {
+    color: #ffffff;
+    font-family: salt;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.pricetax {
+    color: #ffffff;
+    font-family: salt;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.weekordernow {
+    border: 1 solid;
+    background-color:red;
+    color:#ffffff;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 22px;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 100px;
+    width: 160px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.weekicon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+    cursor: pointer;
+}
+.socialfeed{
+    margin-left: 4px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.feedpic1{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.feedpic2{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.feedpic3{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.feedpic4{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.feedpic5{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer {
+    /* background-image: url(images/saltbackgroundpic.webp); */
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position-y: bottom;
+    margin-top: 70px;
+    background-color: #0e0f0f;
+    display: inline-flex;
+}
+.footerul {
+    list-style: none;
+    display: inline-flex;
+}
+.footerpic {
+    margin-top: 50px;
+    margin-left: 8%;
+}
+.footerparagraph {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a6a6;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0%;
+    margin-left: 8%;
+    margin-top: 20px;
+    font-size: 17px;
+    display: inline-flex;
+}
+.term {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a6a6;
+    margin-left: 8%;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.linkheading {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.footerul1 {
+    margin-right: 80px;
+    margin-left: 0%;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a6a6;
+    line-height: 35px;
+    list-style: none;
+    cursor: pointer;
+}
+.footerul2 {
+    margin-right: 100px;
+    margin-left: 0%;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a6a6;
+    line-height: 35px;
+    list-style: none;
+    cursor: pointer;
+}
+.contactheading {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.address {
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.icon {
+    background-color: red;
+    border: 1 solid;
+    border-color: red;
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.footerul3 {
+    margin-right: 150px;
+    margin-left: 0%;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8a6a6;
+    line-height: 35px;
+    list-style: none;
+    cursor: pointer;
+}
+.inlineicon{
+    display: inline-flex;
+}
+.followheading {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.websiteend {
+    display: inline-flex;
+    color: #a8a6a6;
+    background-color: #0e0f0f;
+    width: 100%;
+}
+.copyright {
+    margin-left: 100px;
+}
+.endname{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.end {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 750px;
+    cursor: pointer;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-block-color:#000000;
+}
+#back {
+    background-image: url(images/saltbackgroundpic.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:280px;
+    background-position-y: bottom;
 }
