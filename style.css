@@ -1,15 +1,19 @@
 body {
-    background-color:darkslategray;
+    background: rgb(0,36,22);
+    background: radial-gradient(circle, rgba(0,36,22,1) 0%, rgba(53,121,9,1) 37%, rgba(255,154,0,1) 100%);
 }
 hr {
-    border-block-color: black;
+    border-block-color: rgb(0,36,22);
 }
 h1 {
-    color: black;
+   color:black;
+   margin-right: 130px;
 }
 .inline {
-    padding: 50px ;
     width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
 }
 a {
     text-decoration:none;
