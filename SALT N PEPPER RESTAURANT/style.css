@@ -12,7 +12,7 @@ body {
     display: inline-flex;
     margin-left: 100px;
 }
-.li1,.li2,.li3,.li4,.li5 {
+.inline>li{
    padding-top: 15px;
    padding-left: 40px;
    cursor:pointer;
@@ -99,7 +99,7 @@ h1 {
     text-align: center;
     line-height: 65px;
 }
-.img1,.img2,.img3,.img4,.img5 {
+.pictures>li>img {
     margin-right: 10px;
     margin-top: -10px;
     width: 210px;
