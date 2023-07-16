@@ -1,0 +1,151 @@
+@font-face {
+    font-family: sofia;
+    src: url(Fonts/sofiapro-light.otf);
+}
+.navbar {
+    background-color: #0065c3;
+    height: 85px;
+    width: 100%;
+}
+.nav-item {
+    float: left;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-item>a {
+    color: #ffffff;
+}
+.logoimg {
+    margin-right: 60px;
+    margin-left: 15px;
+}
+@-webkit-keyframes rotateOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: rotate(380deg);
+        transform: rotate(380deg);
+        opacity: 1
+    }
+}
+
+@keyframes rotateOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: rotate(380deg);
+        transform: rotate(380deg);
+        opacity: 1
+    }
+}
+.logoimg:hover{
+    -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.3s;
+}
+.pepsi-btn {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 32px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+.pepsi-btn:hover {
+    background-color: #ffffff;
+    color: #0065c3;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.content {
+    /* background-image: url(images/bachgroung.png);
+    background-size:cover;
+    height: 700px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    position: relative;
+}
+.background {
+    width: 100%;
+    height: 700px;
+}
+.bottle {
+    object-fit:contain;
+    width: 65%;
+    /* height: 100vh; */
+    top: 75px;
+    right: 630px;
+    position: absolute;
+}
+.unlock {
+    position: absolute;
+    top: 100px;
+    width: 35%;
+    left: 650px;
+}
+.get-it-btn {
+    border: 2px solid #ffffff;
+    background: transparent;
+    border-radius: 30px;
+    left: 810px;
+    top: 65%;
+    width: 150px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: absolute;
+}
+.content-paragraph {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    top: 78%;
+    left: 49%;
+    right: 15%;
+}
+.content-1 {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
