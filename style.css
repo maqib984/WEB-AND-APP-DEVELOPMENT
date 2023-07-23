@@ -1,19 +1,25 @@
 body {
-    background: rgb(0,36,22);
-    background: radial-gradient(circle, rgba(0,36,22,1) 0%, rgba(53,121,9,1) 37%, rgba(255,154,0,1) 100%);
+    background-image: url(images/myy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: rgb(0,36,22);
+    background: radial-gradient(circle, rgba(0,36,22,1) 0%, rgba(53,121,9,1) 37%, rgba(255,154,0,1) 100%); */
 }
 hr {
     border-block-color: rgb(0,36,22);
 }
 h1 {
-   color:black;
+   color:#fcfb7c;
    margin-right: 130px;
 }
 .inline {
-    width: 100%;
-    margin-left: 0px;
+    width: 90%;
+    margin-left: 215px;
     margin-right: 0px;
     
+}
+.salt {
+    margin-right: 80px;
 }
 a {
     text-decoration:none;
