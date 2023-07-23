@@ -5,6 +5,10 @@ body {
     /* background: rgb(0,36,22);
     background: radial-gradient(circle, rgba(0,36,22,1) 0%, rgba(53,121,9,1) 37%, rgba(255,154,0,1) 100%); */
 }
+.heading {
+    text-align: center;
+    margin-left: 100px;
+}
 hr {
     border-block-color: rgb(0,36,22);
 }
