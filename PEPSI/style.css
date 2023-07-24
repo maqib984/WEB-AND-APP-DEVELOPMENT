@@ -881,11 +881,6 @@
         flex-direction: column-reverse;
         align-items: center;
     }
-    #second {
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
     .bottles {
         width: 70%;
         margin: 0px;
