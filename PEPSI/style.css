@@ -1247,16 +1247,18 @@
 }
 .left-section{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 .left-section>li>h1 {
     color: #ffffff;
     font-family: cervo;
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
-    line-height: 30px;
+    line-height: 36px;
     padding-top: 0px;
     margin: 0px;
-    margin-top: -58px;
+    margin-top: 0px;
 }
 .left-section>li>p {
     color: #ffffff;
@@ -1327,11 +1329,13 @@
    }
 .right-section {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 .right-section>li>img {
     width: 100%;
-    padding: 50px;
-    margin-top: 100px;
+    padding: 0px 35px 0px 35px;
+    margin-top: 150px;
     margin-left: 0px;
 }
 }
