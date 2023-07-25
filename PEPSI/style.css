@@ -329,7 +329,8 @@
 }
 .Nitro_Logo {
     width: 32%;
-    margin-left: 60px;
+    margin-left: 700px;
+    margin-top: -650px;
 }
 .nitro-heading {
     color: #ffffff;
@@ -337,7 +338,7 @@
     font-size: 26px;
     font-family: cervo;
     text-align: center;
-    margin-top: -180px;
+    margin-top: -200px;
     margin-left: 500px;
 }
 .LEARN-button::before, .button::after {
@@ -357,6 +358,7 @@
     border: 2px solid #ffffff;
     border-radius: 30px;
     margin-left: 850px;
+    margin-top: -20px;
     background-color:transparent;
     color: #ffffff;
     font-weight: bold;
