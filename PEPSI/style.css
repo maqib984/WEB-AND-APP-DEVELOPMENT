@@ -1012,7 +1012,7 @@
     }
     .content3 {
         background-image: url(images/Desktop_Background.png);
-        height: 950px;
+        height: auto;
         background-position:left;
         background-size:cover;
         background-repeat: no-repeat;
@@ -1035,7 +1035,7 @@
     .Nitro_Logo {
         width: 55%;
         margin: 0px;
-        margin-top: 100px;
+        margin-top: 50px;
         /* margin-left: 60px; */
     }
     .nitro-heading {
