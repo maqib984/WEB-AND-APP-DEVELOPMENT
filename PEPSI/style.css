@@ -445,6 +445,9 @@
     background-position: left;
     background-repeat: no-repeat;
 }
+.mbl {
+    display: none;
+}
 .mangoheadline {
     width: 400px;
     margin-left: 50px;
@@ -467,6 +470,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -10px;
+}
+.content7mbl {
+    display: none;
 }
 .twil-can {
     width: 750px;
@@ -1160,4 +1166,74 @@
     margin-top: -80px;
     margin-left: 200px;
 }
+.content5 {
+    background-color: #01408d;
+    height: auto;
+    background-image: none;
+    /* background-image: url(images/content5mblbg.png);
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat; */
+    width: 100%;
+}
+.mbl{
+    display: block;
+}
+.content5mblbg {
+    width: 65%;
+    margin-left: 127px;
+    margin-top: -85px;
+}
+.content5mango1-mobile {
+    margin-top: -202px;
+    margin-left: 265px;
+}
+.content5mango-mobile {
+    width: 28%;
+    margin-top: -565px;
+    margin-left: 15px;
+}
+.content5can-mobile {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: -230px;
+    margin-left: 0px;
+    margin-bottom: 94px;
+}
+.mangoheadline {
+    width: 65%;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.mangocan {
+    width: 894px;
+    display: none;
+}
+.content7 {
+    background-image: url(images/twil-bg-mb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.twil-can {
+    width: 100%;
+    margin-top: 70px;
+}
+.twil-header-dt {
+    width: 470px;
+    margin-left: 50px;
+    display: none;
+}
+.thatwhatilikembl{
+    width: 100%;
+    padding: 40px;
+}
+.content7mbl{
+    display: block;
+}
+
 }
