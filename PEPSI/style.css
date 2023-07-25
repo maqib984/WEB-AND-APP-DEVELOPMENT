@@ -1103,4 +1103,61 @@
        .LEARN-button:active {
         filter: brightness(.8);
        }
+.content4 {
+    background-color: #265cc5;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.Thumbnail {
+    list-style: none;
+    /* width: 430px; */
+    padding: 30px;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Thumbnail>li>img {
+   margin-top: 0px;
+   width: 100%;
+}
+.Thumbnail h6 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 35px;
+    margin: 0px;
+    background-color: #1437bf;
+    height: 40px;
+    width: 100%;
+}
+.img1 {
+    width: 100%;
+}
+.img2 {
+    margin-top: 0px;
+    width: 100%;
+}
+.inline {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.content4pic {
+    width: 100%;
+    height: auto;
+    object-fit:fill;
+    /* margin-left: 25px; */
+}
+.tag-line {
+    width: 150px;
+    margin-top: -80px;
+    margin-left: 225px;
+}
 }
