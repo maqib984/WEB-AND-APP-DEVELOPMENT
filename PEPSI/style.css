@@ -214,20 +214,20 @@
 }
 .content {
     background-image: url(images/bachgroung.png);
-    height: 850px;
+    height: 845px;
 }
 .bottles {
     width: 63%;
-    margin-top: 160px;
+    margin-top: -510px;
     margin-left: -150px;
 }
 .umlock {
     width: 35%;
-    margin-top: -160px;
-    margin-left: -60px;
+    margin-top: 160px;
+    margin-left: 650px;
 }
 .Get-it-now {
-    margin-top: -300px;
+    margin-top: 40px;
     margin-left: 800px;
 }
 
@@ -294,12 +294,12 @@
 }
 .content2 {
     background-color: black;
-    height: 710px;
+    height: 675px;
     width: 100%;
     /* position: absolute; */
 }
 .pepsi-can {
-    width: 75%;
+    width: 72%;
     margin-left: -90px;
     margin-top: -110px;
 }
@@ -308,13 +308,13 @@
     margin-top: -410px;
 }
 .canzero {
-    width: 40%;
-    margin-left: 50px;
-    margin-top: -200px;
+    width: 38%;
+    margin-left: 733px;
+    margin-top: -934px;
 }
 .try-it-to-believe-it {
     width: 30%;
-    margin-top: -550px;
+    margin-top: -620px;
     margin-left: 800px;
 }
 .content3 {
@@ -754,6 +754,7 @@
     }
     .navbar {
         background-color: #0065c3;
+        width: 100%;
         height: auto;  
     }
     .nav-item {
@@ -878,12 +879,13 @@
     }
     .first {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
     .bottles {
-        width: 70%;
+        width: 85%;
         margin: 0px;
+        margin-top: 40px;
     }
     .umlock {
         width: 75%;
@@ -891,8 +893,11 @@
         margin-top: 130px;
     }
     .Get-it-now {
-        align-items: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 0px;
+        margin-top: 40px;
     }
     
     .Get-it-now>button::before, .button::after {
@@ -911,7 +916,7 @@
         --color: white;
         border: 2px solid #ffffff;
         border-radius: 30px;
-        background-color:black;
+        background-color:transparent;
         color: #ffffff;
         font-weight: bold;
         font-size: 16px;
@@ -951,34 +956,136 @@
        }
     .Get-it-now > p {
         color: #ffffff;
-        font-size: 11px;
+        font-size: 10px;
         font-weight:600;
+        margin: 0px;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-top: 30px;
         text-align: center;
     }
     .content2 {
         background-color: black;
-        height: 710px;
+        height: 800px;
         width: 100%;
-        display: none;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
         /* position: absolute; */
     }
+    .reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .pepsi-can {
-        width: 75%;
-        margin-left: -90px;
-        margin-top: -110px;
+        width: 120%;
+        margin: 0px;
+        /* margin-left: -90px;
+        margin-top: -110px; */
     }
     .new-improved-taste {
-        margin-left: -450px;
-        margin-top: -410px;
+        width: 25%;
+        margin: 0px;
+        margin-left: 200px;
+        margin-bottom: -230px;
+        z-index: 1;
+        /* margin-left: -450px;
+        margin-top: -410px; */
     }
     .canzero {
-        width: 40%;
-        margin-left: 50px;
-        margin-top: -200px;
+        width: 150%;
+        margin: 0px;
+        /* margin-left: 50px;
+        margin-top: -200px; */
     }
     .try-it-to-believe-it {
-        width: 30%;
-        margin-top: -550px;
-        margin-left: 800px;
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        /* margin-top: -550px;
+        margin-left: 800px; */
     }
+    .content3 {
+        background-image: url(images/Desktop_Background.png);
+        height: 668px;
+        background-position:center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Nitro_Pepsi_CAN {
+        width: 32%;
+        margin-top: 40px;
+        margin: 0px;
+        /* margin-left: 200px; */
+    }
+    .Nitro_Logo {
+        width: 32%;
+        margin: 0px;
+        /* margin-left: 60px; */
+    }
+    .nitro-heading {
+        color: #ffffff;
+        font-weight:bolder;
+        font-size: 26px;
+        font-family: cervo;
+        text-align: center;
+        margin: 0px;
+        /* margin-top: -180px;
+        margin-left: 500px; */
+    }
+    .LEARN-button::before, .button::after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: 1s ease;
+       }
+       .LEARN-button {
+        --color: white;
+        border: 2px solid #ffffff;
+        border-radius: 30px;
+        margin: 0px;
+        background-color:transparent;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+        width: 160px;
+        height: 38px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: .5s;
+        color: var(--color);
+        z-index: 1;
+    }
+       
+       .LEARN-button::before {
+        top: -1em;
+        left: -1em;
+       }
+       
+       .LEARN-button::after {
+        left: calc(100% + 10px);
+        top: calc(100% + 10px);
+       }
+       
+       .LEARN-button:hover::before, .button:hover::after {
+        height: 410px;
+        width: 410px;
+       }
+       
+       .LEARN-button:hover {
+        color:#0065c3;
+       }
+       
+       .LEARN-button:active {
+        filter: brightness(.8);
+       }
 }
