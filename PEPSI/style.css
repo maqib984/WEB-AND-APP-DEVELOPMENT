@@ -966,11 +966,12 @@
     }
     .content2 {
         background-color: black;
-        height: 800px;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin: 0px;
         /* position: absolute; */
     }
     .reverse {
@@ -981,21 +982,23 @@
     .pepsi-can {
         width: 120%;
         margin: 0px;
+        margin-top: 30px;
         /* margin-left: -90px;
         margin-top: -110px; */
     }
     .new-improved-taste {
         width: 25%;
         margin: 0px;
-        margin-left: 200px;
-        margin-bottom: -230px;
+        margin-left: 175px;
+        margin-bottom: -220px;
         z-index: 1;
         /* margin-left: -450px;
         margin-top: -410px; */
     }
     .canzero {
-        width: 150%;
+        width: 130%;
         margin: 0px;
+        margin-top: 50px;
         /* margin-left: 50px;
         margin-top: -200px; */
     }
@@ -1009,20 +1012,30 @@
     }
     .content3 {
         background-image: url(images/Desktop_Background.png);
-        height: 668px;
-        background-position:center;
+        height: 950px;
+        background-position:left;
+        background-size:cover;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
     .Nitro_Pepsi_CAN {
-        width: 32%;
-        margin-top: 40px;
+        width: 70%;
         margin: 0px;
+        margin-bottom: 60px;
+        margin-top: 20px;
         /* margin-left: 200px; */
     }
+    .content3reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .Nitro_Logo {
-        width: 32%;
+        width: 55%;
         margin: 0px;
+        margin-top: 100px;
         /* margin-left: 60px; */
     }
     .nitro-heading {
