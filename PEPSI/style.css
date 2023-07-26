@@ -31,6 +31,14 @@
     margin-right: 60px;
     margin-left: 15px;
 }
+.pepsi{
+    display: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: cervo;
+    font-size: 34px;
+    margin-top: 10px;
+}
 @-webkit-keyframes rotateOut {
     0% {
         opacity: 1
@@ -783,8 +791,16 @@
         color: #ffffff;
     }
     .logoimg {
-        margin-right: 60px;
+        margin-right: 0px;
         margin-left: 15px;
+    }
+    .pepsi{
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        font-family: cervo;
+        font-size: 34px;
+        margin-top: 10px;
     }
     @-webkit-keyframes rotateOut {
         0% {
