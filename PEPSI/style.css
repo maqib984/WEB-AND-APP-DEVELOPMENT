@@ -573,6 +573,7 @@
     background-size: cover;
     height: 530px;
     display: flex;
+    overflow: hidden;
 }
 
 .left-section {
@@ -1359,7 +1360,7 @@
 
     .content5mblbg {
         width: 65%;
-        margin-left: 127px;
+        margin-left: 126px;
         margin-top: -85px;
     }
 
