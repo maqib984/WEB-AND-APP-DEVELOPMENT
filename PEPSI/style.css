@@ -7,6 +7,10 @@
     font-family: cervo;
     src: url(Fonts/Fontspring-DEMO-cervoneue-blackneue.otf);
 }
+@font-face {
+    font-family: pepsi;
+    src: url(Fonts/Arista-Pro-Alternate-Regular-trial.ttf);
+}
 
 .header {
     position: fixed;
@@ -29,6 +33,9 @@
     outline: none;
     box-shadow: none;
     color: #ffffff;
+}
+.navbar-toggler {
+    border: 0px solid #ffffff !important;
 }
 
 .nav-item {
@@ -53,7 +60,7 @@
     display: none;
     color: #ffffff;
     text-align: center;
-    font-family: cervo;
+    font-family:pepsi !important;
     font-size: 34px;
     margin-top: 10px;
 }
@@ -107,7 +114,7 @@
     font-family: inherit;
     text-transform: uppercase;
     color: var(--color);
-    z-index: 1;
+    z-index: 0;
 }
 
 .pepsi-btn::before,
@@ -301,7 +308,7 @@
     cursor: pointer;
     transition: .5s;
     color: var(--color);
-    z-index: 1;
+    z-index: 0;
 }
 
 .Get-it-now>button::before {
@@ -427,7 +434,7 @@
     cursor: pointer;
     transition: .5s;
     color: var(--color);
-    z-index: 1;
+    z-index: 0;
 }
 
 .LEARN-button::before {
@@ -619,7 +626,7 @@
     cursor: pointer;
     transition: .5s;
     color: var(--color);
-    z-index: 1;
+    z-index: 0;
 }
 
 .viewproduct::before {
@@ -816,7 +823,7 @@
     cursor: pointer;
     transition: .5s;
     color: var(--color);
-    z-index: 1;
+    z-index: 0;
 }
 
 .footerbtn::before,
@@ -902,8 +909,9 @@
         display: block;
         color: #ffffff;
         text-align: center;
-        font-family: cervo;
+        font-family: pepsi !important;
         font-size: 34px;
+        text-transform: lowercase;
         margin-top: 10px;
         margin-right: 15px;
     }
@@ -957,7 +965,7 @@
         font-family: inherit;
         text-transform: uppercase;
         color: var(--color);
-        z-index: 1;
+        z-index: 0;
     }
 
     .pepsi-btn::before,
@@ -1078,7 +1086,7 @@
         cursor: pointer;
         transition: .5s;
         color: var(--color);
-        z-index: 1;
+        z-index: 0;
     }
 
     .Get-it-now>button::before {
@@ -1146,7 +1154,7 @@
         margin: 0px;
         margin-left: 145px;
         margin-bottom: -210px;
-        z-index: 1;
+        z-index: 0;
         /* margin-left: -450px;
         margin-top: -410px; */
     }
@@ -1241,7 +1249,7 @@
         cursor: pointer;
         transition: .5s;
         color: var(--color);
-        z-index: 1;
+        z-index: 0;
     }
 
     .LEARN-button::before {
@@ -1490,7 +1498,7 @@
         cursor: pointer;
         transition: .5s;
         color: var(--color);
-        z-index: 1;
+        z-index: 0;
     }
 
     .viewproduct::before {
@@ -1700,7 +1708,7 @@
         cursor: pointer;
         transition: .5s;
         color: var(--color);
-        z-index: 1;
+        z-index: 0;
     }
 
     .footerbtn::before,
@@ -1767,6 +1775,3 @@
     .content6 {
         width: 100%;
     }
-
-    .navbar-toggler:active {}
-}
