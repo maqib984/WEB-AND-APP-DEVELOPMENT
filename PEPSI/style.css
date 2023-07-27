@@ -19,6 +19,17 @@
     height: 85px;
     width: 100%;
 }
+.navbar-toggler-icon {
+    background-image: url(images/download.svg) !important;
+}
+.nav-link:hover {
+     color: #ffffff !important;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+}
 
 .nav-item {
     float: left;
@@ -861,12 +872,10 @@
     .header {
         position: fixed !important;
         z-index: 1;
-        width: 100%;
     }
 
     .navbar {
         background-color: #0065c3;
-        width: 100%;
         height: auto;
     }
 
