@@ -1,14 +1,144 @@
-body{
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+body {
+    font-family: sans-serif;
     margin: 0px;
-    background-color: red;
+    background-color: hsla(229, 43%, 20%, 1);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 300;
 }
-.box {
-    background-color: orange;
-    width: 100%;
-    height: 100vh;
+.main-grid {
+    display: grid;
+    grid-template-columns: clamp(12rem, 20vw, 15rem) 1fr;
+    gap: 0vw;
+    grid-auto-flow: dense;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
-@media only screen and (min-width:1400px) {
-    .container{
-        max-width: 100% !important;
-    }
+main {
+    padding-block: 2rem;
+    grid-column: 2;
+    width: calc(100vw - clamp(12rem, 20vw, 15rem));
+}
+aside {
+    grid-column: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: end;
+}
+.eyebrows {
+    color: hsla(229, 78%, 68%, 1);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 0;
+}
+.page-title {
+    font-size: 3.25rem;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+}
+.intro {
+    font-size:1.375rem;
+    max-width: 65ch;
+}
+.job-experience {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    overflow-x: auto;
+    position: relative;
+    padding-block: 2rem;
+}
+.job-experience::-webkit-scrollbar {
+    height: 0.75rem;
+}
+.job-experience::-webkit-scrollbar-track {
+    background-color: hsla(229, 47%, 17%, 1);
+    border-radius: 100vw;
+}
+.job-experience::-webkit-scrollbar-thumb {
+    background-color: hsla(147, 93%, 43%, 1);
+    border-radius: 100vw;
+}
+.job {
+    width: 28.5rem;
+    border-radius: 0.25rem;
+    padding: 2rem;
+    background: hsla(229, 47%, 17%, 1);
+}
+.job * {
+    margin: 0;
+}
+.job:first-child::before {
+    content: "Current Assignment";
+    position: absolute;
+    color: hsla(147, 93%, 43%, 1);
+    top: 0;
+    left: 0;
+}
+.year {
+    color: hsla(147, 93%, 43%, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+.job-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+.role {
+    font-size: 1.75rem;
+}
+.company {
+    color: hsla(229, 21%, 53%, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.list {
+    font-size: 16px;
+}
+.fa-brands {
+    margin-top: -90px;
+}
+.icon-list {
+    height: 100%;
+    font-size: 25px;
+    padding: 0px;
+    border-left: 1px solid hsla(229, 36%, 39%, 1);
+    list-style:none;
+    display: grid;
+    align-content:center;
+    /* gap: 3rem; */
+}
+.icon-list > li {
+    position: relative;
+    padding-left: 3rem;
+}
+.icon-list > li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin-top: 65px;
+    left: -0.28rem;
+    width: 0.5rem;
+    aspect-ratio: 1;
+    outline: 0.5rem solid hsla(230, 50%, 58%, 0.3) ;
+    border-radius: 50%;
+    background: white;
 }

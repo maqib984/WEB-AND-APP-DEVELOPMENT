@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Aqib;
+    src: url(font/DancingScript-Bold.ttf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(font/Teko-Regular.ttf)
+}
+body {
+    background-color: #34353a;
+}
+.navbar {
+    width: 100%;    
+}
+.logo {
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffc86b;
+}
+.dot {
+    color:#f9f9f9;
+    font-size:2.75rem;
+}
+.collapse {
+    margin-left: 800px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.nav-item {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.nav-link {
+    color:#b6b7b7 !important;
+}
+.nav-link:hover {
+    color: #ffffff !important;
+}
+.nav-link:focus {
+    color: #ffffff !important;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler-icon {
+    background-image: url(images/newtoogler.svg) !important;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    color: #ffffff !important;
+    color: rgb(255, 200, 107);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.main-heading {
+    color: #f8f8f9;
+    font-weight: lighter;
+    font-size: 28px;
+}
+.yellow {
+    color: #ffc86b;
+    font-size: 3.85rem;
+    font-weight: 500;
+    font-family: lobster;
+}
+.main-paragraph {
+    color: #f8f8f9;
+    font-weight: 300;
+    width: 55ch;
+}
+.latest-assignment {
+    color: #f8f8f9;
+    background-color: transparent;
+}
+.main-pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+@media only screen and (max-width: 992px) {
+    .navbar {
+        height: auto;
+    }
+
+    .myitems {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+    .collapse {
+        margin-left: 0px;
+        margin-top: 0px;
+        font-weight: 500;
+    }
+    .logo {
+    margin-left: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffc86b;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-left: 12px;
+}
+.main-paragraph {
+    color: #f8f8f9;
+    font-weight: 300;
+    width: 45ch;
+}
+}
+@media only screen and (max-width: 576px) {
+    .main-pic {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .yellow {
+        color: #ffc86b;
+        font-size: 4.1rem;
+        font-weight: 500;
+        font-family: lobster;
+    }
+    .main-paragraph {
+        color: #f8f8f9;
+        font-weight: 300;
+        width: 45ch;
+    }
+}
+@media only screen and (max-width: 388px) {
+    .main-paragraph {
+        color: #f8f8f9;
+        font-weight: 300;
+        width: 42ch;
+    }
+    .yellow {
+        color: #ffc86b;
+        font-size: 3.55rem;
+        font-weight: 500;
+        font-family: lobster;
+    }
+}

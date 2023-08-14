@@ -11,7 +11,9 @@
     font-family: pepsi;
     src: url(Fonts/Arista-Pro-Alternate-Regular-trial.ttf);
 }
-
+body {
+    margin: 0;
+}
 .header {
     position: fixed;
     z-index: 1;
