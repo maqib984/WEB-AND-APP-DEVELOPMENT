@@ -68,7 +68,7 @@ body {
     color: #f8f8f9;
     font-weight: lighter;
     font-size: 60px;
-    line-height: 90px;
+    line-height: 50px;
 }
 .yellow {
     color: #ffc86b;
@@ -79,7 +79,8 @@ body {
 .main-paragraph {
     color: #f8f8f9;
     font-weight: 300;
-    width: 75ch;
+    width: 58ch;
+    font-size: 1.5rem;
     text-align: center;
 }
 .latest-assignment {
@@ -188,7 +189,7 @@ body {
     .main-paragraph {
         color: #f8f8f9;
         font-weight: 300;
-        width: 65ch;
+        width: 40ch;
         text-align: start;
     }
 
@@ -196,6 +197,7 @@ body {
     color: #f8f8f9;
     font-weight: lighter;
     font-size: 32px;
+    line-height: 65px;
 }
 .main {
     display: flex;
@@ -204,11 +206,6 @@ body {
     height: auto;
     padding-left: 12px;
     text-align: start;
-}
-.main-paragraph {
-    color: #f8f8f9;
-    font-weight: 300;
-    width: 45ch;
 }
 }
 @media only screen and (max-width: 576px) {
@@ -228,7 +225,7 @@ body {
         color: #f8f8f9;
         font-weight: lighter;
         font-size: 28px;
-        line-height: 60px;
+        line-height: 20px;
     }
     .yellow {
         color: #ffc86b;
@@ -240,7 +237,7 @@ body {
         color: #f8f8f9;
         font-weight: 300;
         text-align: center;
-        width: 45ch;
+        width: 29ch;
     }
     .main-contact {
         display: flex;
@@ -275,12 +272,13 @@ body {
         color: #f8f8f9;
         font-weight: 300;
         width: 42ch;
-        font-size: 15px;
+        font-size: 22px;
     }
     .main-heading {
         color: #f8f8f9;
         font-weight: lighter;
         font-size: 28px;
+        line-height: 24px;
     }
     .yellow {
         color: #ffc86b;
