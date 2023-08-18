@@ -165,7 +165,7 @@ body {
     font-size: 25px;
     display: block;
 }
-.about-me {
+#about-me {
     display: flex;
     justify-content: space-evenly;
     height: auto;
@@ -258,7 +258,7 @@ body {
 .CV:active {
     filter: brightness(.8);
 }
-.my-assignments {
+#my-assignments {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -495,7 +495,7 @@ body {
     font-size: 32px;
     line-height: 65px;
 }
-.about-me {
+#about-me {
     height: auto;
 }
 .about-paragraph {
@@ -563,7 +563,7 @@ body {
         margin-top: 15px;
         font-size: 25px;
     }
-    .about-me {
+    #about-me {
         display: flex;
         justify-content: center;
         height: auto;
