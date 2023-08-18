@@ -735,6 +735,16 @@ body {
         text-align: center;
         line-height: 70px;
     }
+    .my-assignments-heading {
+    color: #f8f8f9;
+    font-size: 2.47rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #ffc86b;
+    width: 70%;
+    text-align: center;
+    line-height: 50px;
+}
     .Assignment>button {
         display: flex;
         flex-direction: column;
