@@ -360,9 +360,15 @@ body {
     height: 800px;
     width: 1000px;
 }
-
-.Assignment>button:hover {
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
     color: #ffc86b;
+}
+.Assignment>button:hover {
+    color: #ffc86b !important;
 }
 .Assignment-pic4:hover {
     display: none;
