@@ -934,4 +934,25 @@ a:hover {
         z-index: 0;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 19px;
     }
+    .skill-1:hover {
+    border-radius: 10px;
+    color: black;
+    transition: none;
+    transform: none;
+    background-color: #ffc86b;
+}
+.skill-2:hover {
+    border-radius: 10px;
+    color: black;
+    transition: none;
+    transform: none;
+    background-color: #ffc86b;
+}
+.skill-3:hover {
+    border-radius: 10px;
+    color: black;
+    transition: none;
+    transform: none;
+    background-color: #ffc86b;
+}
 }
