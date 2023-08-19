@@ -493,7 +493,7 @@ a:hover {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     border-bottom: 3px solid #ffc86b;
-    width: 130px;
+    width: 200px;
     line-height: 50px;
 }
 .skills {
@@ -568,54 +568,110 @@ a:hover {
 }
 .education {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 200vh;
+    align-items: center;
     position: relative;
     background-color: #3d3e42;
+    padding: 0px 12px;
+    padding-bottom: 50px;
 }
 .education-heading {
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     letter-spacing: 2px;
+    margin: 0;
     font-size: 3.1rem;
     color: #f8f8f9;
     top: -33px;
     left: 50px;
 }
+.education-heading::after {
+    content: " ";
+    position: absolute;
+    background-color: #ffc86b;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.education-heading:hover::after {
+    width: 100%;
+}
 .first-education {
     display: flex;
     justify-content: center;
-    width: 70%;
-    padding-top: 40px;
+    width: 100%;
+    padding-top: 70px;
     color: #f8f8f9;
 }
 .year {
-    background-color: #34353a;
-    height: 30px;
-    width: 150px;
-    margin-right: 40px;
+    font-weight: 400;
+    background-color: #5c5d60;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 30px;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     text-align: center;
 }
 .degree {
-    border-left: 3px solid #f8f8f9;
-    height: 300px;
+    width: 75ch;
+    padding-left: 30px;
     position: relative;
+    border-left: 3px solid;
 }
 .degree::after {
     content: "";
     position: absolute;
     top: 0;
-    margin-top: 65px;
-    left: -0.28rem;
+    margin-top: -45px;
+    left: -0.8rem;
     width: 1.5rem;
+    top: 43px;
     aspect-ratio: 1;
-    outline: 0.5rem solid #ecaf0773 ;
+    outline: 0.5rem solid #ffc4036b;
     border-radius: 50%;
     background: #ffc86b;
 }
+.degree-about {
+    color: #b6b7b7;
+}
+.second-education {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0px;
+    color: #f8f8f9;
+}
+.degree-2 {
+    width: 75ch;
+    padding-left: 30px;
+    position: relative;
+    border-left: 3px solid;
+}
+.degree-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.8rem;
+    width: 1.5rem;
+    top: 8px;
+    aspect-ratio: 1;
+    outline: 0.5rem solid #ffc4036b;
+    border-radius: 50%;
+    background: #ffc86b;
+}
+.degree-heading-2 {
+   font-size: 28.8px;
+}
+.degree-heading-3 {
+    font-size: 28.8px;
+ }
 @media only screen and (max-width: 992px) {
     .navbar {
         height: auto;
@@ -934,6 +990,15 @@ a:hover {
         z-index: 0;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 19px;
     }
+    .skill-heading {
+    font-size: 2.97rem !important;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 3px solid #ffc86b;
+    width: 150px;
+    line-height: 50px;
+}
     .skill-1:hover {
     border-radius: 10px;
     color: black;
