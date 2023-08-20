@@ -24,7 +24,7 @@ body {
     font-size:2.75rem;
 }
 .collapse {
-    margin-left: 800px;
+    margin-left: 760px;
     margin-top: 10px;
     font-weight: 500;
 }
@@ -479,6 +479,12 @@ a:hover {
 .Assignment-10::before, .button::after {
     transform: translate(-10%, 25%) !important;
 }
+.logo-1 {
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 120px;
+}
 .skills-section {
     color: #f8f8f9;
     display: flex;
@@ -515,7 +521,7 @@ a:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .skill-1:hover {
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
     transition: 0.2s;
     transform: translate(-0%, -10%);
@@ -536,7 +542,7 @@ a:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .skill-2:hover {
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
     transition: 0.2s;
     transform: translate(-0%, -10%);
@@ -557,7 +563,7 @@ a:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .skill-3:hover {
-    border-radius: 10px;
+    border-radius: 20px;
     color: black;
     transition: 0.2s;
     transform: translate(-0%, -10%);
@@ -608,12 +614,37 @@ a:hover {
     color: #f8f8f9;
 }
 .year {
+    font-size: 0.73rem;
+    font-weight: 400;
+    background-color: #5c5d60;
+    height: 40px;
+    width: 100px;
+    padding: 12px;
+    margin-top: -10px;
+    margin-right: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center;
+}
+.year-2 {
     font-weight: 400;
     background-color: #5c5d60;
     height: 40px;
     width: 100px;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-right: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center;
+}
+.year-3 {
+    font-weight: 400;
+    background-color: #5c5d60;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 0px;
     margin-right: 30px;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
@@ -1019,5 +1050,18 @@ a:hover {
     transition: none;
     transform: none;
     background-color: #ffc86b;
+}
+.year {
+    font-size: 0.54rem;
+    font-weight: 400;
+    background-color: #5c5d60;
+    height: 40px;
+    width: 100px;
+    padding: 12px;
+    margin-top: -10px;
+    margin-right: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center;
 }
 }
