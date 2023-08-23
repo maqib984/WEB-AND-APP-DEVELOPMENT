@@ -23,6 +23,7 @@ body {
     color:#f9f9f9;
     font-size:2.75rem;
 }
+
 .collapse {
     margin-left: 760px;
     margin-top: 10px;
@@ -702,6 +703,7 @@ a:hover {
 .degree-heading-3 {
     font-size: 28.8px;
  }
+
  .footer {
     display: flex;
     justify-content: space-evenly;
@@ -709,8 +711,11 @@ a:hover {
     align-items: center;
     margin-top: 70px;
     height: 40vh;
+    border-top: 1px solid #ffc86b;
+    border-bottom: 1px solid #ffc86b;
     background-color: #3d3e42;
 }
+
 .footerul {
     list-style: none;
 }
@@ -765,6 +770,17 @@ a:hover {
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 15px;
+}
+.thanks {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thanks>h1 {
+    color: #ffc86b;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media only screen and (max-width: 992px) {
     .navbar {
