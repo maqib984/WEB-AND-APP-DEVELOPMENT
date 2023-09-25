@@ -1,0 +1,11 @@
+.on {
+    
+    background-color: aqua;
+}
+.img {
+    /* width: 30%; */
+}
+.on img:hover{
+    width: 50%;
+    height: 5%;
+}

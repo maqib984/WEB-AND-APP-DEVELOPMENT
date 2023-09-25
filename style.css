@@ -765,8 +765,23 @@ a:hover {
     font-size: 32px;
     gap: 1rem;
 }
+.fa-facebook:hover {
+    color: #ffc86b !important;
+}
+.fa-instagram:hover {
+    color: #ffc86b !important;
+} 
+.fa-linkedin:hover {
+    color: #ffc86b !important;
+} 
+.fa-twitter:hover {
+    color: #ffc86b !important;
+} 
+.fa-github:hover {
+    color: #ffc86b !important;
+}
 .followheading {
-    color: #f8f8f9;
+    color: #f8f8f9 !important;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 15px;

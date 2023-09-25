@@ -425,3 +425,299 @@ document.write ("<h4>ANS OF QUESTION NO 13</h4>")
 // var monitorOut = device.splice (0,1)
 // document.write ("<h4>Out:</h4>" + monitorOut + "<br />")
 
+document.write("<h1>CHAPTER 17 - 20 </h1>")
+document.write("<h1>ARRAYS AND LOOP</h1>")
+document.write("<h4>ANS OF QUESTION NO 01</h4>")
+
+// var multi = [[],[],[]]
+
+document.write("<h4>ANS OF QUESTION NO 02</h4>")
+
+// var multiArray = [[123],[1012],[2101]]
+// console.log(multiArray)
+
+document.write("<h4>ANS OF QUESTION NO 03</h4>")
+
+// for (var i = 1; i <= 10; i++)
+// console.log(i)
+
+document.write("<h4>ANS OF QUESTION NO 04</h4>")
+// var table = [[2],[3],[4],[5],[6]]
+// var table = prompt("Enter a Number to show the multipilication table")
+// var length = prompt("Enter a length of multipilication table")
+// console.log("Multipilication Table of " + table)
+// console.log("Length of Table is " + length)
+// for (var i = 1; i <= length; i++){
+//     console.log(table + "x" +i + "=" + table * i)
+// }
+
+document.write("<h4>ANS OF QUESTION NO 05</h4>")
+// var fruits = ["apple","banana","mango","orange","strawberry"]
+// for (var i = 0; i < fruits.length ; i++){
+//     console.log(fruits[i])
+// }
+// console.log("Element at index 0 is " + fruits[0])
+// console.log("Element at index 1 is " + fruits[1])
+// console.log("Element at index 2 is " + fruits[2])
+// console.log("Element at index 3 is " + fruits[3])
+// console.log("Element at index 4 is " + fruits[4])
+
+document.write("<h4>ANS OF QUESTION NO 07</h4>")
+
+
+// var bakeryitem = prompt("What do you want to order")
+// var bakery = ["cake","apple pie","cookie","chips","patties"]
+// //console.log(bakeryitem + " is available at index " + bakery.length + " in our bakery")
+// if (bakeryitem == "cookie") {
+// alert(bakeryitem + " is available at index "+ bakery.indexOf("cookie") + " in our bakery")
+// }
+// else{
+// alert("We are sorry " + bakeryitem + " is not available in our bakery")
+// }
+
+document.write("<h4>ANS OF QUESTION NO 08 09</h4>")
+
+// var arr = [24, 53, 78, 91, 12]
+
+// var min = arr[0]
+// var max = arr[0]
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] < min){
+//     min = arr[i]
+//     }
+//     if (arr[i] > max){
+//     max = arr[i]
+//     }
+// }
+// console.log("Smallest Number " + min)
+// console.log("Largest Number " + max)
+
+document.write("<h4>ANS OF QUESTION NO 10</h4>")
+// var arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// for (var i = 0; i < arr.length; i++)
+// console.log(arr[i] * 5)
+
+
+document.write("<h1>CHAPTER 21 - 25 </h1>")
+document.write("<h1>STRING METHODS</h1>")
+document.write("<h4>ANS OF QUESTION NO 01</h4>")
+
+// var first = prompt("Write your first Name") 
+// var last = prompt("Write your Last Name") 
+// var fullName = first + " " + last
+// alert(fullName)
+
+document.write("<h4>ANS OF QUESTION NO 02</h4>")
+
+// var mbl = prompt("Favorite Mobile Phone")
+// console.log("Favorite Mobile is:", mbl)
+// console.log("Lenth of string is:", mbl.length)
+
+document.write("<h4>ANS OF QUESTION NO 03</h4>")
+
+// var country = "pakistan"
+// console.log("String:", country)
+// console.log("Index Of 'n' is:", country.indexOf("n"))
+
+document.write("<h4>ANS OF QUESTION NO 04</h4>")
+
+// var str = "Hello World"
+// console.log("String:", str)
+// console.log("Index Of 'l' is:", str.lastIndexOf("l"))
+
+document.write("<h4>ANS OF QUESTION NO 05</h4>")
+
+// var country = "pakistan"
+// console.log("String:", country)
+// console.log("Chracter of 3rd index is:", country.charAt(3))
+
+document.write("<h4>ANS OF QUESTION NO 06</h4>")
+
+// var first = prompt("Write your first Name") 
+// var last = prompt("Write your Last Name") 
+// var fullName = first.concat(last)
+// alert(fullName)
+
+document.write("<h4>ANS OF QUESTION NO 07</h4>")
+
+var city = "hyderabad"
+//var replace = city.replace("Hyder","Islam")
+//console.log(replace)
+// for (var i = 0; i < city.length; i++) {
+// if (city.slice(i, i + 5) === "hyder") {
+// city = city.slice(0, 0) + "quaid" + city.slice(i + 5);
+// console.log(city)
+// }
+// }
+
+document.write("<h4>ANS OF QUESTION NO 08</h4>")
+// var message = "Ali and Sami are best friends. They play cricket and football together";
+// var replace = message.replace(/and/g ,"&")
+// console.log(replace)
+
+document.write("<h4>ANS OF QUESTION NO 09</h4>")
+
+// var value = "984"
+// console.log("Value", value)
+// console.log("Type", typeof value)
+// console.log("Value", Number(value))
+// console.log("Type", typeof Number(value))
+
+document.write("<h4>ANS OF QUESTION NO 10</h4>")
+
+//var user = prompt("Write any thing you want")
+//console.log(user.toUpperCase())
+
+document.write("<h4>ANS OF QUESTION NO 11</h4>")
+
+// var user = prompt("Write any thing you want")
+// for (var i = 0; i < user.length; i++) {
+//     user[i] = user.charAt(0).toUpperCase() + user.slice(1); 
+    
+//     console.log(user[i])
+// }
+
+
+document.write("<h4>ANS OF QUESTION NO 12</h4>")
+
+// var num = 35.36
+// var convert = num.toString().replace(".", "")
+// console.log(convert)
+
+
+
+document.write("<h1>CHAPTER 26 - 30 </h1>")
+document.write("<h1>Math Method</h1>")
+document.write("<h4>ANS OF QUESTION NO 01</h4>")
+
+// var jj = (3.45214)
+// var num =  Math.ceil(jj);
+// var num1 = Math.floor(jj)
+// var num2 = Math.round(jj)
+// console.log("Number:", jj)
+// console.log("Ceil", num)
+// console.log("floor", num1)
+// console.log("Round", num2)
+
+
+document.write("<h4>ANS OF QUESTION NO 02</h4>")
+
+// var jj = (-2.673)
+// var num =  Math.ceil(jj);
+// var num1 = Math.floor(jj)
+// var num2 = Math.round(jj)
+// console.log("Number:", jj)
+// console.log("Ceil", num)
+// console.log("floor", num1)
+// console.log("Round", num2)
+
+
+
+document.write("<h4>ANS OF QUESTION NO 03</h4>")
+
+// var num = -4
+// console.log(Math.abs(num))
+
+
+
+document.write("<h4>ANS OF QUESTION NO 04</h4>")
+
+// var dice = Math.floor(Math.random()*6+1)
+// console.log(dice)
+
+document.write("<h4>ANS OF QUESTION NO 05</h4>")
+
+// var toss = [1,2]
+// let num = Math.round(Math.random(toss)+1);
+
+// if (num > 1) {
+//   console.log("tail");
+// } else {
+//   console.log("head");
+// }
+
+document.write("<h4>ANS OF QUESTION NO 06</h4>")
+
+// console.log(Math.floor(Math.random() * 100) + 1) 
+
+document.write("<h4>ANS OF QUESTION NO 07</h4>")
+
+// var weight = prompt("your weight")
+// weight = parseFloat(Math.random(weight));
+// console.log(weight)
+
+document.write("<h4>ANS OF QUESTION NO 08</h4>")
+// var random = Math.floor(Math.random() * 10) + 1;
+// var number = parseInt(prompt('Guess a number from 1 to 10: '))
+// if(number == 4) {
+//      console.log('You guessed the correct number.');
+// }else (
+//     console.log("You guessed the wrong number.")
+// )
+
+
+
+
+
+
+
+// var arr = ["level","ghous"]
+// // var user = prompt()
+// for(var i = arr.length;  i >= -1;  i--){
+//     console.log(arr[i])
+// }
+
+// var odd = []
+// var even = []
+// for (var i = 1; i <= 100; 1++){
+//     if(i % 2 === 0){
+//       console.log(odd.push(i));
+//     }
+// }
+
+
+// var para = "In previous chapters you learned two different ways to replace World War II with the Second World War in a string First there was the loop and slice approach"
+
+
+// var nam = ["saqib",'aqib','sajid']
+// nam = [["sajid","aqib","saqib"]]
+
+// for(var i = 0; i < nam.length; i++){
+//     console.log(nam[i])
+// }
+
+
+// var num = [Math.random().toFixed(7) + "@" + "AQIB"]
+// num.splice(3,6,"ttt")
+// console.log(num)
+
+// var current = new Date() 
+// var ramzan = new Date("03-11-1999")
+// //console.log(current.getHours() - ramzan.getHours())
+// var monthLeft = current.getMonth() - ramzan.getMonth()
+// console.log(current.getFullYear() - ramzan.getFullYear())
+
+// var current = new Date()
+// var dob = new Date("11-10-1999")
+// var age = current.getFullYear() - dob.getFullYear();   
+// alert(age)
+
+// function abc(){
+
+// }
+// console.log(abc())
+
+// var arr = ['zain',"zain","zain","zain",'ghous','rao','zain','rao','ali','adil','khan','adil'];
+// //var arr = ["aqib","saqib","aqib","saqib"];
+
+// for (var i = 0; i < arr.length ; i++){
+//     for (var j = i; j < arr.length; j++){
+//         if (arr[i]==arr[j]){
+//             arr.splice(j,1);
+//         }
+//     }
+// }
+// console.log(arr)
+
+
+
